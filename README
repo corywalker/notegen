@@ -1,0 +1,13 @@
++------------------------------------------------+
+|    Notegen.py - by Cory Walker (aka cmwslw)    |
+|       Created for the Linux4nano project       |
+| cmwslw is not liable for any idiots using this |
++------------------------------------------------+
+
+usage: python notegen.py [ARGS]
+-a --address  Address to jump to
+-p --payload  Binary file to embed in note
+-o --output   File to write note file to
+-s --shift    Shift by two bytes
+
+example: python notegen.py -a 08034104 -s -p delaycrash.bin
