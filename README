@@ -10,4 +10,4 @@ usage: python notegen.py [ARGS]
 -o --output   File to write note file to
 -s --shift    Shift by two bytes
 
-example: python notegen.py -a 08034104 -s -p delaycrash.bin
+example: python notegen.py -a 08034104 -s -p bin/all/delaycrash.bin

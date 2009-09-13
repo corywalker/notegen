@@ -1,0 +1,3 @@
+MOV ip, #0xaa0000
+MOV lr, #0x550000
+B   0x0
