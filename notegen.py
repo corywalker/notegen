@@ -23,7 +23,7 @@ def main(argv):
     payload_file = None
     output_file = 'note.htm'
     try:                                
-        opts, args = getopt.getopt(argv, "a:p:s", ["address=", "payload=", "shift"])
+        opts, args = getopt.getopt(argv, "a:p:so:", ["address=", "payload=", "shift", "output="])
         for opt, arg in opts:
             if opt in ("-s", "--shift"):
                 shift = True
